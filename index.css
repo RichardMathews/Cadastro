@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: local(Raleway), url(./assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Feeling Lovely";
+    src: local(Raleway), url(./assets/fonts/Feeling_Lovely/Feeling_Lovely.ttf);
+}
+
+body {
+    background-image: url("assets/map.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #e6f0f2;
+    background-image: linear-gradient(to right, #c1e9f1 , #e6f0f2, #c1e9f1);
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);
+}
+
+.card {
+    box-shadow:  5px 0px 5px rgba(0, 0, 0, 0.4) ;
+    background-color: #815f39;
+    background-image: linear-gradient(#6d4a22, #815f39, #5c3912);
+    display:inline-block;
+    width: 250px;
+    height: 540px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.container_title{
+    padding-top: 80px;
+}
+
+.title{
+    font-size: 40px;
+    color: #bab4a4;
+    font-family: 'Feeling Lovely';
+}
+
+.text {
+    font-family: 'Roboto Regular';
+    padding-top: 100px;
+}
